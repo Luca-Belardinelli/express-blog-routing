@@ -1,5 +1,8 @@
+// richiamando express
 const express = require('express')
+// inalizzazione express
 const app = express()
+// defiinizione porta in ascolto
 const port = 3000
 //importiamo il router 
 const postsRouter = require('./routers/posts')
